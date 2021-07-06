@@ -1,0 +1,196 @@
+
+/* =========================== 
+    RESET CSS
+   =========================== */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =========================== 
+    REUSABLE CSS
+   =========================== */
+
+.section-pt {
+    padding-top: 60px
+}
+
+.section-pb {
+    padding-bottom: 40px
+}
+
+.d-flex {
+    display: flex;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, orange, tomato);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.text-grey {
+    color: #575757;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 10px #575757;
+}
+
+.border-none {
+    border: none;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.secondary-heading {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section-header p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* =========================== 
+    MAIN CSS
+   =========================== */
+
+.main-heading {
+    font-size: 50px;
+}
+
+.main-content {
+    padding: 10%;
+    width: 30%;
+}
+
+.main-subheading {
+    width: 80%;
+}
+
+.main-section {
+    height: 100vh;
+}
+
+.about-me {
+    height: 600px;
+    background-image: url('/foodhub/images/7.png');
+}
+
+.about-me-img {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-me-img img {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-content {
+    width: 30%;
+    padding: 10%;
+}
+
+.about-me-content p {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.recipe-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    width: 30%;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 20px #e6e6e6;
+    border-radius: 30px;
+}
+.item>img {
+    width: 100%;
+}
+
+.section-breaker {
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #e6e6e6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section-breaker-content {
+    padding-top: 20px;
+}
+
+.section-breaker-item {
+    width: 30%;
+    text-align: center;
+}
+
+.section-breaker-item h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
