@@ -238,3 +238,28 @@ footer h2 {
     font-size: 20px;
 }
 
+.know-more {
+
+}
+
+.know-more-img {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 30%
+}
+
+.know-more-img img {
+    width: 100%;
+}
+
+.know-more-content {
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.know-more-content h2 {
+    font-size: 60px;
+}
+
